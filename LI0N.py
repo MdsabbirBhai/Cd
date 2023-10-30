@@ -1171,7 +1171,7 @@ def menu():
 	elif opt =='3':
 		malik_baloch()
 	elif opt =='4':
-		pubg()
+	pubg()
 	elif opt =='5':
 		ff()
 	elif opt =='0':
@@ -1309,7 +1309,7 @@ def pubg():
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
-	with ThreadPool(max_workers=30) as yaari:
+with ThreadPool(max_workers=30) as yaari:
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
@@ -1557,5 +1557,4 @@ def approval():
       approval()
   except:
     sys.exit()
-
 rehan()
