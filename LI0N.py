@@ -1086,18 +1086,17 @@ for xd in range(10000):
     ugen.append(uaku2)
 
 logo = """
-         \033[1;37m ##     ##     ######      ######   
-         \033[1;37m ###   ###    ##    ##    ##    ##  
-         \033[1;37m #### ####    ##          ## 
-         \033[1;37m ## ### ##     ######      ######
-         \033[1;37m ##     ##          ##          ##
-         \033[1;37m ##     ##    ##    ##    ##    ##
-         \033[1;37m ##     ##     ######      ###### \033[1;32m LI0N\033[1;37m 
---------------------------------------------------
-[•]CREATED BY     : \033[1;32mAB KHANX\033[1;37m
-[•]FACEBOOK       : \033[1;32mAB KHANX\033[1;37m
-[•]YOUTUBE        : \033[1;32mMSS TRICKS\033[1;37m
-[•]STATUS         : \033[1;32mFREE\033[1;37m
+         
+███████╗ █████╗ ██████╗ ██████╗ ██╗██████╗ 
+██╔════╝██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗
+███████╗███████║██████╔╝██████╔╝██║██████╔╝
+╚════██║██╔══██║██╔══██╗██╔══██╗██║██╔══██╗
+███████║██║  ██║██████╔╝██████╔╝██║██║  ██║
+╚══════╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═╝                         --------------------------------------------------
+[•]CREATED BY     : \033[1;32mAB SABBIR\033[1;37m
+[•]FACEBOOK       : \033[1;32mAB SABBIR Sr\033[1;37m
+[•]GITHUB        : \033[1;32mMSS Mdsabbirbhai\033[1;37m
+[•]STATUS         : \033[1;32mPremum\033[1;37m
 --------------------------------------------------
 [•] \033[1;37mVERSION    :\033[1;32m 1.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
@@ -1137,7 +1136,7 @@ def rehan():
 	lines()
 	gh = input('[•] CHOOSE : ')
 	if gh =='1':
-		menu()
+	menu()
 	elif gh =='2':
 	bd()
 	elif gh =='3':
@@ -1173,9 +1172,9 @@ def menu():
 	elif opt =='4':
 	pubg()
 	elif opt =='5':
-		ff()
+	ff()
 	elif opt =='0':
-		rehan()
+	rehan()
 	else:
 		print('\n\033[1;37m[•] Choose valid option\033[0;97m')
 		time.sleep(2)
@@ -1344,7 +1343,7 @@ def ff():
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
-	with ThreadPool(max_workers=30) as yaari:
+with ThreadPool(max_workers=30) as yaari:
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
