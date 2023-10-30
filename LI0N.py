@@ -1139,9 +1139,9 @@ def rehan():
 	if gh =='1':
 		menu()
 	elif gh =='2':
-		bd()
+	bd()
 	elif gh =='3':
-		chos()
+	chos()
 	elif gh =='4':
 		os.system('xdg-open https://www.facebook.com/MUMT4Z.SH4H.SW4TI')
 	elif gh =='0':
